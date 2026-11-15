@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="234" viewBox="0 0 324 234">
+  <!-- Banner oscuro con estática de TV para dtk-iptv -->
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#131926"/>
+      <stop offset="1" stop-color="#05070c"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fa9ff"/>
+      <stop offset="1" stop-color="#1764e8"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2740"/>
+      <stop offset="1" stop-color="#0d1424"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3fa9ff" stop-opacity="0.30"/>
+      <stop offset="0.6" stop-color="#3fa9ff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#3fa9ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <filter id="staticNoise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <filter id="iconShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="324" height="234" fill="url(#base)"/>
+  <!-- Estática de TV -->
+  <rect x="0" y="0" width="324" height="234" filter="url(#staticNoise)" opacity="0.22"/>
+  <!-- Resplandor azul detrás del icono -->
+  <ellipse cx="162" cy="117" rx="130" ry="96" fill="url(#glow)"/>
+  <!-- Icono de la app (resources/dtk-iptv.svg), 156px centrado, con sombra -->
+  <g transform="translate(84,39) scale(0.609375)" filter="url(#iconShadow)">
+    <rect x="16" y="16" width="224" height="224" rx="52" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.7" stroke-width="6"/>
+    <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+      <path d="M128 84 L98 50"/>
+      <path d="M128 84 L158 50"/>
+    </g>
+    <rect x="48" y="80" width="160" height="112" rx="22" fill="#ffffff"/>
+    <rect x="60" y="92" width="136" height="88" rx="13" fill="url(#screen)"/>
+    <path d="M114 114 L152 136 L114 158 Z" fill="#ffffff" stroke="#ffffff" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="88" y="200" width="80" height="10" rx="5" fill="#ffffff"/>
+  </g>
+  <!-- Viñeta para cerrar los bordes -->
+  <rect x="0" y="0" width="324" height="234" fill="url(#vignette)"/>
+</svg>
