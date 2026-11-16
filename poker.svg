@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="234" viewBox="0 0 324 234">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27407a"/>
+      <stop offset="1" stop-color="#0a1838"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="324" height="234" fill="url(#bg)"/>
+  <rect width="324" height="234" fill="url(#glow)"/>
+  <g transform="translate(87.00,42.00) scale(1.1719)">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d3f8f"/>
+      <stop offset="100%" stop-color="#0a1a44"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#bg)"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="rotate(-20 64 110)">
+      <rect x="40" y="30" width="44" height="64" rx="6" fill="#fdfdfb" stroke="#8a8a8a"/>
+      <text x="62" y="72" font-size="26" fill="#1c1c1c">&#9827;</text>
+    </g>
+    <g transform="rotate(-7 64 110)">
+      <rect x="40" y="28" width="44" height="64" rx="6" fill="#fdfdfb" stroke="#8a8a8a"/>
+      <text x="62" y="70" font-size="26" fill="#c81e28">&#9830;</text>
+    </g>
+    <g transform="rotate(7 64 110)">
+      <rect x="40" y="28" width="44" height="64" rx="6" fill="#fdfdfb" stroke="#8a8a8a"/>
+      <text x="62" y="70" font-size="26" fill="#1c1c1c">&#9824;</text>
+    </g>
+    <g transform="rotate(20 64 110)">
+      <rect x="40" y="30" width="44" height="64" rx="6" fill="#fdfdfb" stroke="#8a8a8a"/>
+      <text x="52" y="46" font-size="14" font-weight="bold" fill="#c81e28">A</text>
+      <text x="62" y="74" font-size="26" fill="#c81e28">&#9829;</text>
+    </g>
+  </g>
+  <rect x="22" y="100" width="84" height="16" rx="8" fill="#ffd23c"/>
+  <text x="64" y="113" font-family="sans-serif" font-weight="bold" font-size="12" fill="#0a1a44" text-anchor="middle">POKER</text>
+  </g>
+</svg>
