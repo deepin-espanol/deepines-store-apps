@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="234" viewBox="0 0 324 234">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4f75"/>
+      <stop offset="1" stop-color="#1c2942"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="324" height="234" fill="url(#bg)"/>
+  <rect width="324" height="234" fill="url(#glow)"/>
+  <g transform="translate(87.00,42.00) scale(1.1719)">
+<rect x="4" y="4" width="120" height="120" rx="24" fill="#2b3a55"/>
+  <rect x="38" y="38" width="76" height="76" rx="4" fill="#f4f1ea"/>
+  <g fill="#2b3a55">
+    <rect x="53" y="38" width="15" height="15"/><rect x="83" y="38" width="15" height="15"/>
+    <rect x="38" y="53" width="76" height="15"/>
+    <rect x="38" y="68" width="76" height="15"/>
+    <rect x="53" y="83" width="46" height="15"/>
+    <rect x="68" y="98" width="15" height="16"/>
+  </g>
+  <g stroke="#9aa6bd" stroke-width="1.2">
+    <path d="M53 38v76M68 38v76M83 38v76M98 38v76M38 53h76M38 68h76M38 83h76M38 98h76"/>
+  </g>
+  <g fill="#ffd23c" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle">
+    <text x="60" y="30">2</text><text x="75" y="30">4</text><text x="90" y="30">4</text>
+    <text x="23" y="49">1 1</text><text x="23" y="64">5</text><text x="23" y="79">5</text>
+    <text x="23" y="94">3</text><text x="23" y="109">1</text>
+  </g>
+  </g>
+</svg>
