@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="234" viewBox="0 0 324 234">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a525c"/>
+      <stop offset="1" stop-color="#1d2126"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="324" height="234" fill="url(#bg)"/>
+  <rect width="324" height="234" fill="url(#glow)"/>
+  <g transform="translate(87.00,42.00) scale(1.1719)">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3f47"/>
+      <stop offset="100%" stop-color="#1f2329"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a9099"/>
+      <stop offset="100%" stop-color="#5f656e"/>
+    </linearGradient>
+    <radialGradient id="mine" cx="38%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#5a5f66"/>
+      <stop offset="100%" stop-color="#0d0f12"/>
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#bg)"/>
+  <!-- Rejilla 3x3: casillas tapadas, abiertas con numero, bandera -->
+  <g font-family="sans-serif" font-weight="bold" font-size="20" text-anchor="middle">
+    <rect x="16" y="16" width="30" height="30" rx="5" fill="url(#tile)"/>
+    <rect x="49" y="16" width="30" height="30" rx="5" fill="#2b3037"/>
+    <text x="64" y="38" fill="#5aa9ff">1</text>
+    <rect x="82" y="16" width="30" height="30" rx="5" fill="url(#tile)"/>
+    <path d="M93 22 v18 M93 22 l12 5 l-12 5" stroke="#ffffff" stroke-width="2" fill="#ff4d4d" stroke-linejoin="round"/>
+    <rect x="16" y="49" width="30" height="30" rx="5" fill="#2b3037"/>
+    <text x="31" y="71" fill="#5fd35f">2</text>
+    <rect x="16" y="82" width="30" height="30" rx="5" fill="#2b3037"/>
+    <text x="31" y="104" fill="#5aa9ff">1</text>
+  </g>
+  <!-- Mina grande sobre casilla explotada -->
+  <rect x="49" y="49" width="63" height="63" rx="8" fill="#d23a3a"/>
+  <g stroke="#0d0f12" stroke-width="5" stroke-linecap="round">
+    <line x1="80.5" y1="56" x2="80.5" y2="105"/>
+    <line x1="56" y1="80.5" x2="105" y2="80.5"/>
+    <line x1="63" y1="63" x2="98" y2="98"/>
+    <line x1="98" y1="63" x2="63" y2="98"/>
+  </g>
+  <circle cx="80.5" cy="80.5" r="17" fill="url(#mine)"/>
+  <circle cx="74" cy="74" r="4.5" fill="#ffffff" fill-opacity="0.75"/>
+  </g>
+</svg>
