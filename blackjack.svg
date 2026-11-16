@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="234" viewBox="0 0 324 234">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f7a44"/>
+      <stop offset="1" stop-color="#0a3d22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="324" height="234" fill="url(#bg)"/>
+  <rect width="324" height="234" fill="url(#glow)"/>
+  <g transform="translate(87.00,42.00) scale(1.1719)">
+<defs>
+    <radialGradient id="felt" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2a9a52"/>
+      <stop offset="100%" stop-color="#0d5a2c"/>
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#felt)"/>
+  <g transform="rotate(-14 52 66)">
+    <rect x="22" y="28" width="52" height="74" rx="7" fill="#fdfdfb" stroke="#9a9a9a" stroke-width="1.5"/>
+    <text x="30" y="46" font-family="sans-serif" font-weight="bold" font-size="16" fill="#1c1c1c">A</text>
+    <text x="48" y="80" font-family="sans-serif" font-size="30" fill="#1c1c1c" text-anchor="middle">&#9824;</text>
+  </g>
+  <g transform="rotate(12 80 66)">
+    <rect x="54" y="26" width="52" height="74" rx="7" fill="#fdfdfb" stroke="#9a9a9a" stroke-width="1.5"/>
+    <text x="61" y="44" font-family="sans-serif" font-weight="bold" font-size="16" fill="#c81e28">K</text>
+    <text x="80" y="78" font-family="sans-serif" font-size="30" fill="#c81e28" text-anchor="middle">&#9829;</text>
+  </g>
+  <circle cx="98" cy="100" r="16" fill="#c81e28" stroke="#ffffff" stroke-width="3" stroke-dasharray="5 4"/>
+  <text x="98" y="106" font-family="sans-serif" font-weight="bold" font-size="15" fill="#ffffff" text-anchor="middle">21</text>
+  </g>
+</svg>
